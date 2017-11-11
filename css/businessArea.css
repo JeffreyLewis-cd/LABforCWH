@@ -1,0 +1,93 @@
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+body{font:12px"微软雅黑","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{color:#2d374b;text-decoration:none}
+a:hover{color:#013D86;text-decoration:none !important;}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+table{border-collapse:collapse;border-spacing:0}
+p{word-wrap:break-word}
+
+
+.reagents-box{
+    width:1000px;
+    margin: 0 auto;
+    height:500px;
+}
+.btnList{
+    width:196px;
+    /*border:1px solid red;*/
+    /*height:500px;*/
+    float: left;
+}
+.btnList h3,h5{
+    width:196px;
+    text-align: center;
+}
+.btnList h3{
+    color: #013D86;
+    font-weight:bold;
+}
+.btnList h5{
+    color: #BABABA;
+}
+.business-details{
+    width:800px;
+    /*border:1px solid green;*/
+    /*height:500px;*/
+    float: left;
+    padding:20px
+}
+.btnList ul{
+    width:150px;
+    margin:0 auto;
+}
+.btnList ul li{
+    padding-left: 10px;
+    border-bottom:1px solid #E5E5E5;
+    height:30px;
+    line-height:30px;
+}
+.btnList ul li:hover{
+    background: #013D86;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.business-breadCrumbs{
+    border-bottom: 1px solid #013D86;
+}
+.businees-txt p{
+    padding:20px 30px;
+}
+.iconAli{
+    height:30px;
+    width:30px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+.wechat{
+    background: url("../pic/wechat01.png" )no-repeat;
+    background-size: cover;
+}
+.puzzle{
+    background: url("../pic/puzzle01.png" )no-repeat;
+    background-size: cover;
+}
+.bubble{
+    background: url("../pic/bulb01.png" )no-repeat;
+    background-size: cover;
+}
+.color01{
+    color: #8E9B00;
+}.color02{
+    color: #BD6404;
+}.color03{
+    color: #BE0000;
+}
+.business-pic{
+    height:400px;
+    width:600px;
+    background: url("../pic/hreagents01.png") no-repeat;
+    background-size: cover;
+}
